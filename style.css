@@ -1,0 +1,58 @@
+body{
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(202, 150, 250);
+    color: #554fad;
+}
+button {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 50px; /* Bordes ligeramente redondeados */
+    cursor: pointer;
+    font-size: 10px;
+    .mi-boton {
+     cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+}
+}
+
+.container{
+    text-align: center;
+    background-color: rgb(210, 188, 231);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px ;
+}
+
+h1{
+    color: rgb(53, 51, 182);
+    margin-bottom: 15px;
+}
+
+p{
+    margin-bottom: 30px;
+font-size: 1.1em;
+}
+
+#memoriesButton{
+    background-color: rgb(109, 107, 235);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+#memoriesButton:hover{
+    background-color: rgb(185, 19, 19);
+    transform: translateY(-2px);
+}
+
+#memoriesButton:active{
+    background-color: azure;
+    transform: translateY(0);
+}

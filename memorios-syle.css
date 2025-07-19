@@ -1,0 +1,79 @@
+body{
+   font-family: 'Arial' , sans-serif;
+   margin: 0;
+   padding: 20px;
+   background-color: #d6eaf8;
+   color: #5499c7;
+   line-height: 1.5;
+}
+.memories-header{
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ebf5fb;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+.memories-header h1{
+    color: #2980b9;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.memories-header p{
+    font-size: 1.1em;
+    color: #5dade2;
+}
+.memories-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.memory-item{
+    background-color: #a9cce3;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.01);
+    text-align: center;
+    padding-bottom: 20px;
+    transition: transform 0.4s ease;
+}
+.memory-item:hover{
+    transform: translateY(-5px);
+}
+.memoey-item img,
+.memory-item video {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+.memory-item h3 {
+    color: #283747;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+.memory-item p{
+    color: #2874a6;
+    font-size: 0.95em;
+    padding: 0 15px;
+}
+.back-button-container{
+    text-align: center;
+    margin-top: 50px;
+}
+.back-button-container button{
+    background-color: #85c1e9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.back-button-container button:hover{
+    background-color: #922b21;
+}
